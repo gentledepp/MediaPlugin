@@ -12,7 +12,7 @@ namespace MediaSample
     public App()
     {
       // The root page of your application
-      MainPage = new Media();//new MediaPage();
+      MainPage = new NavigationPage(new StartPage());//new MediaPage();
     }
 
     protected override void OnStart()
